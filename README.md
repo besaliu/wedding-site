@@ -1,4 +1,4 @@
-# Sophia & Alexander — Wedding Invitation Website
+# Ben & Cristalyn — Wedding Invitation Website
 
 A wedding invitation website built with **React**, **Vite**, **Tailwind CSS**, and **Lucide Icons**. Designed with a warm beige aesthetic, clean sans-serif typography, soft card borders, and subtle shadows.
 
@@ -14,7 +14,7 @@ A wedding invitation website built with **React**, **Vite**, **Tailwind CSS**, a
   - **"Add to Calendar"** button supporting **Google Calendar** web link and **.ics universal calendar file download** (for Apple Calendar & Outlook).
   - Day-of itinerary flow (Ceremony, Cocktail Hour, Dinner, Toasts, Dancing, Send-off).
   - Parking and valet instructions.
-- **Hotel Block**: Accommodations card with room block rate, cutoff date, shuttle details, and **1-click discount code copy** (`SOPHIAALEX26`).
+- **Hotel Block**: Accommodations card with room block rate, cutoff date, shuttle details, and **1-click discount code copy** (`BENCRISTALYN26`).
 - **3 Cash Funds & QR Codes**:
   - Wedding Celebration Fund
   - Honeymoon Adventure Fund

@@ -31,10 +31,10 @@ export default function Logistics() {
     const icsContent = [
       'BEGIN:VCALENDAR',
       'VERSION:2.0',
-      'PRODID:-//Sophia and Alexander Wedding//EN',
+      `PRODID:-//${couple.groom} and ${couple.bride} Wedding//EN`,
       'CALSCALE:GREGORIAN',
       'BEGIN:VEVENT',
-      `UID:wedding-${startDate}@sophia-alex-wedding.com`,
+      `UID:wedding-${startDate}@ben-cristalyn-wedding.com`,
       `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').split('.')[0]}Z`,
       `DTSTART:${startDate}`,
       `DTEND:${endDate}`,
@@ -49,7 +49,7 @@ export default function Logistics() {
     const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
     const link = document.createElement('a');
     link.href = window.URL.createObjectURL(blob);
-    link.setAttribute('download', 'sophia-alexander-wedding.ics');
+    link.setAttribute('download', `${couple.groom.toLowerCase()}-${couple.bride.toLowerCase()}-wedding.ics`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

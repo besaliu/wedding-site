@@ -470,7 +470,7 @@ export default function RSVP() {
 
                 <div>
                   <label className="block text-xs uppercase tracking-wider text-[#8C7A6B] font-semibold mb-1">
-                    A Note For Sophia & Alexander (Optional)
+                    A Note For {couple.bride} & {couple.groom} (Optional)
                   </label>
                   <textarea
                     rows={3}
