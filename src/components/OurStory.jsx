@@ -107,10 +107,12 @@ export default function OurStory() {
       </div>
 
       {/* Lightbox Modal */}
-      <PhotoModal
-        photo={selectedPhoto}
-        onClose={() => setSelectedPhoto(null)}
-      />
+      {selectedPhoto && (
+        <PhotoModal
+          photo={selectedPhoto}
+          onClose={() => setSelectedPhoto(null)}
+        />
+      )}
     </section>
   );
 }

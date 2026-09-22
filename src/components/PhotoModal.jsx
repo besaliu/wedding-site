@@ -3,17 +3,20 @@ import { X, MapPin, Calendar } from 'lucide-react';
 
 export default function PhotoModal({ photo, onClose }) {
   useEffect(() => {
+    if (!photo) return;
+
     const handleKeyDown = (e) => {
       if (e.key === 'Escape') onClose();
     };
     window.addEventListener('keydown', handleKeyDown);
+    const originalOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
 
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
-      document.body.style.overflow = 'unset';
+      document.body.style.overflow = originalOverflow;
     };
-  }, [onClose]);
+  }, [photo, onClose]);
 
   if (!photo) return null;
 
