@@ -11,10 +11,10 @@ export const weddingConfig = {
     groom: "Ben",
     monogram: "B & C",
     hashtag: "#BenAndCristalyn",
-    weddingDate: "Saturday, October 24, 2026",
+    weddingDate: "Saturday, August 14, 2027",
     ceremonyTime: "4:00 PM PST",
     // Countdown target ISO string
-    countdownTarget: "2026-10-24T16:00:00-07:00",
+    countdownTarget: "2027-08-14T16:00:00-07:00",
     tagline: "We can't wait to celebrate our next chapter with our closest family and friends.",
   },
 
@@ -23,7 +23,7 @@ export const weddingConfig = {
     eyebrow: "Together with their families",
     title: "Ben & Cristalyn",
     subtitle: "Request the pleasure of your company at their wedding celebration",
-    dateDisplay: "October 24, 2026 • Napa Valley, California",
+    dateDisplay: "August 14, 2027 • Napa Valley, California",
     rsvpButtonText: "RSVP Now",
     detailsButtonText: "View Event Details",
     // Warm, elegant landscape couple image
@@ -69,7 +69,7 @@ export const weddingConfig = {
       },
       {
         id: "milestone-5",
-        date: "October 24, 2026",
+        date: "August 14, 2027",
         title: "The Beginning of Forever",
         description: "Surrounded by our dearest friends and family, we exchange vows, celebrate, and start this beautiful lifelong adventure as husband and wife.",
         image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80",
@@ -222,8 +222,8 @@ export const weddingConfig = {
       title: "Ben & Cristalyn's Wedding",
       description: "Celebrating the wedding of Ben and Cristalyn at The Glasshouse Estate in Napa Valley.",
       location: "1420 Olive Hill Lane, Napa Valley, CA 94558",
-      startDate: "20261024T230000Z", // UTC
-      endDate: "20261025T060000Z",   // UTC
+      startDate: "20270814T230000Z", // UTC
+      endDate: "20270815T060000Z",   // UTC
     }
   },
 
@@ -234,12 +234,12 @@ export const weddingConfig = {
     hotelName: "The Napa Valley Lodge & Suites",
     address: "2230 Vineyard Way, Yountville, CA 94599",
     rate: "$219 / night (Standard King or Double Queen)",
-    groupCode: "BENCRISTALYN26",
-    cutoffDate: "September 20, 2026",
+    groupCode: "BENCRISTALYN27",
+    cutoffDate: "July 14, 2027",
     bookingUrl: "https://example.com/napa-lodge-booking",
     phone: "(707) 555-0182",
     shuttleInfo: "A complimentary private guest shuttle will run continuous round-trips between The Napa Valley Lodge and the wedding estate from 3:00 PM to midnight.",
-    instructions: "To secure the discounted group rate, please book online using the code BENCRISTALYN26 or call the reservation desk and mention the Ben & Cristalyn Wedding Block prior to September 20, 2026.",
+    instructions: "To secure the discounted group rate, please book online using the code BENCRISTALYN27 or call the reservation desk and mention the Ben & Cristalyn Wedding Block prior to July 14, 2027.",
   },
 
   // FAQ Section
@@ -275,7 +275,7 @@ export const weddingConfig = {
       {
         id: "faq-6",
         question: "By when should I submit my RSVP?",
-        answer: "Please kindly submit your RSVP by September 15, 2026 so we can provide final seating and dining counts to our venue and culinary team.",
+        answer: "Please kindly submit your RSVP by July 10, 2027 so we can provide final seating and dining counts to our venue and culinary team.",
       },
     ],
   },
@@ -324,11 +324,11 @@ export const weddingConfig = {
   // RSVP Form & Submission Settings
   rsvp: {
     sectionTitle: "RSVP",
-    sectionSubtitle: "Please enter your name to find your invitation and confirm your attendance by September 15, 2026.",
+    sectionSubtitle: "Please enter your name to find your invitation and confirm your attendance by July 10, 2027.",
     formName: "wedding-rsvp",
     // Optional Google Sheets Webhook URL (leave empty or set in .env/config)
     googleSheetWebhookUrl: "",
-    deadline: "September 15, 2026",
+    deadline: "July 10, 2027",
     dietaryOptions: [
       "No Restrictions",
       "Vegetarian",

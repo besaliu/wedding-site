@@ -29,7 +29,7 @@ export default function Footer() {
 
         {/* Date & Location */}
         <div className="text-xs uppercase tracking-widest text-[#8C7A6B] font-medium mb-10">
-          October 24, 2026 • Napa Valley, California
+          {weddingConfig.hero.dateDisplay}
         </div>
 
         {/* Back to top button */}
