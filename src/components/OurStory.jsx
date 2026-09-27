@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { weddingConfig } from '../data/weddingConfig';
-import { Calendar, MapPin, Maximize2, Heart } from 'lucide-react';
-import PhotoModal from './PhotoModal';
+import { Calendar, MapPin, Heart } from 'lucide-react';
 
 export default function OurStory() {
   const { story } = weddingConfig;
-  const [selectedPhoto, setSelectedPhoto] = useState(null);
 
   return (
     <section id="story" className="py-20 lg:py-28 bg-[#FAF7F2] relative">
@@ -51,23 +49,13 @@ export default function OurStory() {
                   >
                     <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-5 sm:p-7 border border-[#E8DFD1] shadow-card hover:shadow-soft transition-all duration-300 group">
                       {/* Photo Container */}
-                      <div
-                        onClick={() => setSelectedPhoto(item)}
-                        className="relative h-52 sm:h-64 rounded-xl overflow-hidden mb-5 cursor-pointer bg-[#F5EFE6] group-hover:opacity-95 transition-opacity"
-                      >
+                      <div className="relative h-52 sm:h-64 rounded-xl overflow-hidden mb-5 bg-[#F5EFE6]">
                         <img
                           src={item.image}
                           alt={item.title}
                           className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                           loading="lazy"
                         />
-                        {/* Hover Overlay with expand icon */}
-                        <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
-                          <span className="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-full bg-black/50 backdrop-blur-sm text-xs font-medium tracking-wider uppercase">
-                            <Maximize2 className="w-3.5 h-3.5" />
-                            <span>Enlarge</span>
-                          </span>
-                        </div>
                       </div>
 
                       {/* Date & Location Badges */}
@@ -105,14 +93,6 @@ export default function OurStory() {
           </div>
         </div>
       </div>
-
-      {/* Lightbox Modal */}
-      {selectedPhoto && (
-        <PhotoModal
-          photo={selectedPhoto}
-          onClose={() => setSelectedPhoto(null)}
-        />
-      )}
     </section>
   );
 }
