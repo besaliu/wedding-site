@@ -61,11 +61,11 @@ export const weddingConfig = {
       },
       {
         id: "milestone-4",
-        date: "December 2025",
-        title: "The Sunset Proposal",
-        description: "On a quiet, foggy evening on the Northern California coast, Ben asked Cristalyn to take a scenic cliffside walk. As the clouds parted into golden hour over the Pacific, he dropped to one knee. An easy and joyful 'YES!'",
-        image: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=800&q=80",
-        location: "Point Reyes, California",
+        date: "September 5, 2026",
+        title: "The Proposal at West Cliff",
+        description: "Ben and Cristalyn met in Santa Cruz for a walk along West Cliff—a place that brought them peace and so many cherished memories during their time dating in college. Overlooking the ocean, Ben dropped to one knee to ask for a lifetime together, sealing the deal on their forever.",
+        image: "/proposal.jpg",
+        location: "Santa Cruz, California",
       },
       {
         id: "milestone-5",
