@@ -3,7 +3,7 @@ import { ChevronDown, Calendar, MapPin } from 'lucide-react';
 import { weddingConfig } from '../data/weddingConfig';
 
 export default function Hero() {
-  const { hero, couple } = weddingConfig;
+  const { hero, couple, logistics } = weddingConfig;
 
   return (
     <section className="relative min-h-[92vh] lg:min-h-screen flex items-center justify-center text-center overflow-hidden">
@@ -44,7 +44,7 @@ export default function Hero() {
           </span>
           <span className="flex items-center space-x-2 bg-black/25 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20">
             <MapPin className="w-3.5 h-3.5 text-[#E8DFD1]" />
-            <span>Napa Valley, California</span>
+            <span>{logistics.venue.cityDisplay || logistics.venue.city}</span>
           </span>
         </div>
 

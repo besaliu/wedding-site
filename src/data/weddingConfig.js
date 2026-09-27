@@ -23,7 +23,7 @@ export const weddingConfig = {
     eyebrow: "Together with their families",
     title: "Ben & Cristalyn",
     subtitle: "Request the pleasure of your company at their wedding celebration",
-    dateDisplay: "August 14, 2027 • Napa Valley, California",
+    dateDisplay: "August 14, 2027 • San Diego, California",
     rsvpButtonText: "RSVP Now",
     detailsButtonText: "View Event Details",
     // Warm, elegant landscape couple image
@@ -73,7 +73,7 @@ export const weddingConfig = {
         title: "The Beginning of Forever",
         description: "Surrounded by our dearest friends and family, we exchange vows, celebrate, and start this beautiful lifelong adventure as husband and wife.",
         image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80",
-        location: "Napa Valley, California",
+        location: "San Diego, California",
       }
     ],
   },
@@ -173,11 +173,12 @@ export const weddingConfig = {
     sectionTitle: "Logistics & Venue",
     sectionSubtitle: "All the details you need for a seamless and memorable celebration.",
     venue: {
-      name: "The Glasshouse Estate & Gardens",
-      address: "1420 Olive Hill Lane",
-      city: "Napa Valley, CA 94558",
-      googleMapsUrl: "https://maps.google.com/?q=The+Glasshouse+Estate+Napa+Valley+CA",
-      parkingInfo: "Complimentary valet parking is provided upon arrival at the estate gates. For guests planning to celebrate with wine, rideshare services (Uber and Lyft) are readily available.",
+      name: "The Darlington Coastal Estate & Gardens",
+      address: "7441 Olivetas Avenue",
+      city: "La Jolla, San Diego, CA 92037",
+      cityDisplay: "San Diego, California",
+      googleMapsUrl: "https://maps.google.com/?q=Darlington+House+La+Jolla+CA",
+      parkingInfo: "Complimentary valet parking is provided upon arrival at the estate gates. For guests planning to celebrate with drinks, rideshare services (Uber and Lyft) are readily available.",
       note: "The ceremony and cocktail hour will take place outdoors on manicured lawn areas. Block heels or wedges are recommended.",
     },
     schedule: [
@@ -197,13 +198,13 @@ export const weddingConfig = {
         time: "5:00 PM",
         event: "Cocktail Hour & Hors d'oeuvres",
         location: "The Stone Terrace",
-        description: "Enjoy signature cocktails, local Napa Valley wines, and seasonal passed canapés to acoustic jazz.",
+        description: "Enjoy signature cocktails, California wines, and seasonal passed canapés to acoustic jazz.",
       },
       {
         time: "6:30 PM",
         event: "Dinner & Toasts",
         location: "The Glass Conservatory",
-        description: "A seated farm-to-table dinner featuring fresh Northern California produce and heartfelt toasts.",
+        description: "A seated farm-to-table dinner featuring fresh California produce and heartfelt toasts.",
       },
       {
         time: "8:30 PM",
@@ -220,8 +221,8 @@ export const weddingConfig = {
     ],
     calendarEvent: {
       title: "Ben & Cristalyn's Wedding",
-      description: "Celebrating the wedding of Ben and Cristalyn at The Glasshouse Estate in Napa Valley.",
-      location: "1420 Olive Hill Lane, Napa Valley, CA 94558",
+      description: "Celebrating the wedding of Ben and Cristalyn in San Diego, California.",
+      location: "7441 Olivetas Avenue, San Diego, CA 92037",
       startDate: "20270814T230000Z", // UTC
       endDate: "20270815T060000Z",   // UTC
     }
@@ -231,14 +232,14 @@ export const weddingConfig = {
   hotelBlock: {
     sectionTitle: "Accommodations",
     sectionSubtitle: "We have reserved a preferred room block for our guests traveling from out of town.",
-    hotelName: "The Napa Valley Lodge & Suites",
-    address: "2230 Vineyard Way, Yountville, CA 94599",
+    hotelName: "The San Diego Coastal Lodge & Suites",
+    address: "7955 La Jolla Shores Dr, San Diego, CA 92037",
     rate: "$219 / night (Standard King or Double Queen)",
     groupCode: "BENCRISTALYN27",
     cutoffDate: "July 14, 2027",
-    bookingUrl: "https://example.com/napa-lodge-booking",
-    phone: "(707) 555-0182",
-    shuttleInfo: "A complimentary private guest shuttle will run continuous round-trips between The Napa Valley Lodge and the wedding estate from 3:00 PM to midnight.",
+    bookingUrl: "https://example.com/san-diego-hotel-booking",
+    phone: "(858) 555-0182",
+    shuttleInfo: "A complimentary private guest shuttle will run continuous round-trips between the hotel partner and the wedding estate from 3:00 PM to midnight.",
     instructions: "To secure the discounted group rate, please book online using the code BENCRISTALYN27 or call the reservation desk and mention the Ben & Cristalyn Wedding Block prior to July 14, 2027.",
   },
 
