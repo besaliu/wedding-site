@@ -57,25 +57,32 @@ export default function Registry() {
                   {getFundIcon(fund.icon)}
                 </div>
 
-                {/* Fund Title */}
-                <h3 className="font-serif text-2xl text-[#4A3F35] font-normal mb-2">
-                  {fund.title}
-                </h3>
+                {/* Fund Title Container - Uniform height across cards for X-axis alignment */}
+                <div className="h-14 sm:h-16 flex items-center justify-center mb-2 px-1">
+                  <h3 className="font-serif text-2xl text-[#4A3F35] font-normal leading-snug">
+                    {fund.title}
+                  </h3>
+                </div>
 
-                <p className="text-[#6C5840] text-xs sm:text-sm font-light leading-relaxed mb-6">
-                  {fund.tagline}
-                </p>
+                {/* Fund Tagline Container - Uniform height across cards for X-axis alignment */}
+                <div className="h-16 sm:h-20 flex items-center justify-center mb-6 px-1">
+                  <p className="text-[#6C5840] text-xs sm:text-sm font-light leading-relaxed">
+                    {fund.tagline}
+                  </p>
+                </div>
 
-                {/* QR Code Container */}
-                <div className="p-4 rounded-2xl bg-[#FAF7F2] border border-[#E8DFD1] inline-block mb-6 relative">
-                  <img
-                    src={fund.qrCodeUrl}
-                    alt={`${fund.title} QR Code`}
-                    className="w-40 h-40 object-contain mx-auto rounded-lg"
-                    loading="lazy"
-                  />
-                  <div className="text-[10px] uppercase tracking-wider text-[#8C7A6B] mt-2 font-medium">
-                    Scan with camera or payment app
+                {/* QR Code Container - Perfectly aligned along horizontal X-axis */}
+                <div className="flex justify-center mb-6">
+                  <div className="p-4 rounded-2xl bg-[#FAF7F2] border border-[#E8DFD1] inline-flex flex-col items-center justify-center shadow-xs">
+                    <img
+                      src={fund.qrCodeUrl}
+                      alt={`${fund.title} QR Code`}
+                      className="w-40 h-40 object-contain mx-auto rounded-lg bg-white p-1"
+                      loading="lazy"
+                    />
+                    <div className="text-[10px] uppercase tracking-wider text-[#8C7A6B] mt-2.5 font-medium text-center">
+                      Scan with camera or payment app
+                    </div>
                   </div>
                 </div>
 
