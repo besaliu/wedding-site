@@ -280,7 +280,7 @@ export default function RSVP() {
                     type="text"
                     value={searchQuery}
                     onChange={handleSearchChange}
-                    placeholder="e.g. Maya Lin, David Kim..."
+                    placeholder="e.g. Alex, Philip..."
                     className="w-full pl-11 pr-28 py-3.5 rounded-2xl bg-[#FAF7F2] border border-[#E8DFD1] text-[#4A3F35] text-sm focus:outline-none focus:ring-2 focus:ring-[#C5A880]/50 focus:border-[#C5A880] transition-all"
                   />
                   <Search className="w-5 h-5 text-[#8C7A6B] absolute left-3.5 top-1/2 -translate-y-1/2" />
@@ -336,7 +336,7 @@ export default function RSVP() {
                   Quick Demo Guests to Try:
                 </span>
                 <div className="flex flex-wrap items-center justify-center gap-2 pt-1">
-                  {['Maya Lin', 'David Kim', 'Claire Bennett', 'Ethan Martinez'].map((sample) => (
+                  {['Alex', 'Philip', 'Helen', 'Zach'].map((sample) => (
                     <button
                       key={sample}
                       type="button"
